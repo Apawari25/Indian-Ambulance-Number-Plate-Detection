@@ -33,5 +33,23 @@ Evaluation metrics are based on automatically generated pseudo-labels, not indep
 ## Model
 A pretrained YOLOv8 license plate detection model was used. No model training was performed as part of this project.
 
+## Detection Results
+
+- Total Images Processed: 529
+- Images with at least one detection: 494
+- OCR Detection Records: 734
+- Preliminary Regex Matches: 18
+
+**Note:** These are preliminary results. OCR predictions and regex matches require manual verification. Evaluation metrics were calculated using automatically generated pseudo-labels.
+
+## Project Files
+
+- `Ambulance_Number_Plate_Detection (1).ipynb` – Google Colab notebook
+- `best (1).pt` – Pretrained YOLOv8 model
+- `data.yaml` – Dataset configuration
+- `detection_summary.csv` – Detection summary
+- `args.yaml` – Model configuration
+
+
 ## Author
 Prajakta Nawale
