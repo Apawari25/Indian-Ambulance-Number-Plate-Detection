@@ -1,0 +1,6 @@
+path: /content/drive/MyDrive/Ambulance_Project/Final_Dataset
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: number_plate
